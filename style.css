@@ -1,0 +1,203 @@
+/* ----------------------------
+FONT: Arimo
+
+TEXT: ALL
+----------------------------
+GREEN CIRCLE
+
+COLOR: #7ED957
+
+---------------------------
+GREEN STRIPE
+
+COLOR: #00BF63
+
+----------------------------
+GREEN FOOTER
+
+COLOR: #00BF63
+
+----------------------------
+TEXT FOOTER
+
+COLOR: #EEEEEE
+
+----------------------------
+
+font-family: 'Arimo', sans-serif;
+*/
+body{
+    font-family: 'Arimo', sans-serif;
+}
+
+nav{
+    margin-top: 5%;
+}
+h1{
+    font-family: 'Arimo', sans-serif;  
+    position: relative;
+    font-size: 60px;
+    float: left;
+    margin-bottom: 6%;
+    margin-left: 15%;
+}
+h1::before{
+    position: absolute;
+    content:"";
+    width: 64px;
+    height: 64px;
+    margin-left: -100px;
+    border-radius: 50%;
+    background-color: #7ED957;
+
+}
+h2{
+    text-align: center;
+    font-size: 30px;
+    float: right;
+    margin-right: 10%;
+    margin-top: 1%;
+}
+
+.fondo{
+    font-family: 'Arimo', sans-serif;
+    width: 100%;
+    height: 100vh;
+    margin-top: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-size: cover;
+    background-image: url(img/2.png);
+    background-position: center;
+    z-index: -1;
+}
+
+div>h3{
+    background-color: #00BF63;
+    width: 50%;
+    padding-block: 12px;
+    color: white;
+    font-size: 50px;
+    padding-left: 8%;
+    margin-bottom: 8px;
+    justify-content: center;
+    font-weight: 600;
+    
+}
+div:nth-child(1)>h3{
+    width: 25%;
+    margin-left: 2.5%;
+    padding-left: 9.5%;
+}
+div:nth-child(n+2)>h3{
+    margin-left: 3.5%;
+}
+    
+h4{
+    background-color: black;
+    width: 46%;
+    padding-block: 5px;
+    color: white;
+    font-size: 25px;
+    padding-left: 6%;
+    font-weight: 600;
+}
+
+div:nth-child(4)>h4{
+    padding-left: 8%;
+    margin-top: 5%;
+    margin-left: 3.5%;
+}
+div:nth-child(5)>h4{
+    width: 33%;
+    margin-top: 5px;
+    margin-left: 5.2%;
+}
+
+h5{
+    margin: 70px 0 20px 120px;
+    position: relative;
+    font-size: 50px;
+    font-family: 'Arimo', sans-serif;  
+    font-weight: 700;
+
+}
+span{
+    margin: 30px 0 0 120px;
+    position: relative;   
+    font-size: 28px;
+    font-family: 'Arimo', sans-serif;  
+    
+}
+.imagenes{
+    display: flex;
+    justify-content: center;
+    gap: 8%;
+    margin-top: 5%;
+}
+.imagenes >div{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    position: relative;
+}
+img{
+    height: 300px;
+    width: 300px;
+}
+
+h6{  
+    font-family: 'Arimo', sans-serif;
+    margin-top: 110%;
+    display: flex;
+    font-weight: 800;
+    flex-wrap: wrap; 
+    position: absolute;
+    font-size: 40px;
+    margin-bottom: 10%;
+
+}
+div:nth-child(1)>h6::before{
+    content:"🖌️​";
+    font-size: 50px;
+    margin-left: -30px;
+    align-items: center;
+}
+
+div:nth-child(2)>h6::before{
+    content:"⚛️";
+    font-size: 50px;
+    margin-left: -30px;
+    align-items: center;
+}
+div:nth-child(3)>h6::before{
+    content:"🗜️";
+    font-size: 50px;
+    margin-left: -30px;
+    align-items: center;
+}
+p{  
+    display:flex;
+    margin-top: 130%;    
+    position: absolute;
+    font-size: 20px;
+    font-family: 'Arimo', sans-serif;  
+}
+footer{
+    background-color: #00BF63;
+    position: relative;
+    margin: 0 0 260px 60px;
+    bottom: -30vh;
+    padding: 15px 70px;
+    width: 80%;
+    height: 60px;
+    align-items: center;
+    font-weight: 400;
+    display: flex;
+    justify-content: space-between;
+}
+footer>h2{
+    color: #EEEEEE;
+    font-size: 23px;
+}
